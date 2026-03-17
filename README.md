@@ -14,4 +14,4 @@ I draw portraits and nature scenes. Art is my way to express emotions and connec
 
 ## Website
 Visit my website here:
-https://yourusername.github.io/ihor-website
+https://ihorlisyuk.github.io/ihor-website
