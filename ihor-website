@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery div {
+      background: #eee;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #666;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ihor Lysiuk</h1>
+  <p>Artist • Portraits & Nature Drawings</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <h2 id="about">About Me</h2>
+  <p>Hello, my name is Ihor Lysiuk. I am a deaf artist who creates drawings of portraits and nature. Art is my way of expressing emotions and connecting with people.</p>
+
+  <h2 id="gallery">My Artwork</h2>
+  <p>Here you will find some of my drawings. Available artworks will be listed for sale.</p>
+
+  <div class="gallery">
+    <div>Artwork 1</div>
+    <div>Artwork 2</div>
+    <div>Artwork 3</div>
+    <div>Artwork 4</div>
+  </div>
+
+  <h2 id="contact">Contact</h2>
+  <p>If you are interested in buying my art, please contact me:</p>
+  <p>Email: ihorlysiuk@yahoo.com</p>
+</div>
+
+<footer>
+  <p>© 2026 Ihor Lysiuk</p>
+</footer>
+
+</body>
+</html>
